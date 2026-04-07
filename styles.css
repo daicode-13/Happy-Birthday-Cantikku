@@ -26,6 +26,7 @@
       background-attachment: fixed;
       min-height: 10px;
       max-width: 768px;
+      margin: 0 90px;
   }
 
   .floating-elements {
