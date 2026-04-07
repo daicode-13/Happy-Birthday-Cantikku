@@ -21,6 +21,8 @@
       overflow-x: hidden;
       background-image: url(imut.png);
       background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
       background-attachment: scroll;
       min-height: 10px;
   }
