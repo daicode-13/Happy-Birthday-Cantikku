@@ -23,7 +23,7 @@
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
-      background-attachment: scroll;
+      background-attachment: fixed;
       min-height: 10px;
       max-width: 768px;
       margin: auto;
@@ -58,8 +58,8 @@
       color: #ffffff;
       text-shadow: 4px 4px 15px rgba(255, 20, 147, 0.8);
       margin-bottom: 0.5rem;
-      animation: heartbeat 5s ease-in-out;
-      -webkit-animation: heartbeat 5s infinite;
+      animation: heartbeat 5s infinite;
+      -webkit-animation: heartbeat 5s ease-in-out;
 }
 
   .sub-title {
