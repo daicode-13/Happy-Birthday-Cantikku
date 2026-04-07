@@ -25,9 +25,8 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       min-height: 10px;
+      max-width: 768px;
   }
-
-@madia (max-width: 768px);
 
   .floating-elements {
       position: fixed;
