@@ -21,9 +21,11 @@
       overflow-x: hidden;
       background-image: url(imut.png);
       background-size: cover;
-      background-attachment: fixed;
+      background-attachment: scroll;
       min-height: 10px;
   }
+
+@madia (max-width: 768px);
 
   .floating-elements {
       position: fixed;
