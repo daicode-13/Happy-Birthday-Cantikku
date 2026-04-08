@@ -29,6 +29,14 @@
       margin: auto;
   }
 
+/* KHUSUS MOBILE */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-position: center;
+    }
+}
+
   .floating-elements {
       position: fixed;
       top: 0;
