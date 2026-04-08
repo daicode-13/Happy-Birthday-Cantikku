@@ -109,7 +109,7 @@
       margin-bottom: 10px;
       background: var(--primary);
       color: white;
-      border: 2px solid #efeffe;
+      border: none;
       border-radius: 50px;
       font-size: 1.2rem;
       font-weight: 600;
