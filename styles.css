@@ -23,17 +23,22 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      background-attachment: fixed;
-      min-height: 10px;
-      max-width: 768px;
-      margin: auto;
+      position: relative;
   }
 
-/* KHUSUS MOBILE */
+/* FIX background khusus desktop */
+@media (min-width: 768px) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
+/* MOBILE OPTIMIZATION */
 @media (max-width: 768px) {
     body {
         background-attachment: scroll;
         background-position: center;
+        min-height: 100dvh;
     }
 }
 
@@ -93,18 +98,10 @@
       0%,
       100% {
           transform: scale(1);
-          -webkit-transform:;
-          -moz-transform:;
-          -ms-transform:;
-          -o-transform:;
 }
 
       50% {
           transform: scale(1.05);
-          -webkit-transform:;
-          -moz-transform:;
-          -ms-transform:;
-          -o-transform:;
 }
   }
 
