@@ -25,6 +25,8 @@
       background-position: center center;
       background-attachment: fixed;
       min-height: 10px;
+      max-width: 768px;
+      margin: auto;
   }
 
   .floating-elements {
@@ -56,7 +58,7 @@
       color: #ffffff;
       text-shadow: 4px 4px 15px rgba(255, 20, 147, 0.8);
       margin-bottom: 0.5rem;
-      animation: heartbeat 5s ease-in-out infinite;
+      animation: heartbeat 5s infinite;
       transform-origin: center;  
       will-change: transform;
 }
