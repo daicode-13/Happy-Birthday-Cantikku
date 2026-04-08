@@ -87,7 +87,7 @@
   .lover-name {
       font-family: 'Dancing Script', cursive;
       font-size: 2.5rem;
-      color: var(--primary);
+      color: #efeffe;
       margin-bottom: 1rem;
       text-shadow: 2px 2px 4px rgba(201, 196, 196, 0.1);
   }
