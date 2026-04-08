@@ -27,7 +27,7 @@
   }
 
 /* FIX background khusus desktop */
-@media (min-width: 769px) {
+@media (min-width: 900px) {
     body {
         background-attachment: fixed;
     }
