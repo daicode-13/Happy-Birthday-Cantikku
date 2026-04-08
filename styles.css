@@ -22,10 +22,9 @@
       background-image: url(imut.png);
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: center center;
       background-attachment: fixed;
       min-height: 10px;
-      max-width: 768px;
   }
 
   .floating-elements {
