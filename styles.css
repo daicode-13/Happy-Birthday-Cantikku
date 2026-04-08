@@ -23,8 +23,15 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      background-attachment: fixed;
+      position: relative;
   }
+
+/* FIX background khusus desktop */
+@media (min-width: 769px) {
+    body {
+        background-attachment: fixed;
+    }
+}
 
 /* MOBILE OPTIMIZATION */
 @media (max-width: 768px) {
