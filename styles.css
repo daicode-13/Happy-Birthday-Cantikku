@@ -245,9 +245,9 @@
       font-family: 'Poppins', cursive;
       font-size: 15px;
       text-align: center;
-      color: var(--primary);
+      color: #ffffff;
       margin-top: 5rem;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
   }
 
   .title {
