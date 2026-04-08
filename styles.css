@@ -22,7 +22,7 @@
       background-image: url(imut.png);
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: center;
       background-attachment: fixed;
       min-height: 10px;
       max-width: 768px;
