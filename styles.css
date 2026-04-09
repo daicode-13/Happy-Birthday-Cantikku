@@ -65,6 +65,11 @@
       z-index: 10;
   }
 
+/* Styling hbd,happy 24th yers, dan Esra agak turun ke bawah */
+  #birthdayText {
+    margin-top: 30px;
+  }
+
   .hero h1 {
       font-family: 'Dancing Script', cursive;
       font-size: clamp(3rem, 10vw, 6rem);
