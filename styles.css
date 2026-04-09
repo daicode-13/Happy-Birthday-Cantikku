@@ -24,6 +24,7 @@
       background-repeat: no-repeat;
       background-position: center center;
       position: relative;
+      margin-bottom: 10px;
   }
 
 /* FIX background khusus desktop */
