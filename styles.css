@@ -68,7 +68,8 @@
   .hero h1 {
       font-family: 'Dancing Script', cursive;
       font-size: clamp(3rem, 10vw, 6rem);
-      color: #ffffff;
+      color: #E8D9B5;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.45);
       margin-bottom: 0.5rem;
       animation: heartbeat 5s infinite;
       transform-origin: center;  
