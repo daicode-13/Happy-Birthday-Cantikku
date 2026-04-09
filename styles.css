@@ -24,7 +24,6 @@
       background-repeat: no-repeat;
       background-position: center center;
       position: relative;
-      margin-bottom: 10px;
   }
 
 /* FIX background khusus desktop */
@@ -38,7 +37,7 @@
 @media (max-width: 768px) {
     body {
         background-attachment: scroll;
-        background-position: center;
+        background-position: center 20%;
     }
 }
 
