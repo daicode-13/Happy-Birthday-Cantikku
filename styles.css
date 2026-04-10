@@ -158,8 +158,6 @@
       -o-transform: translateY(-10px);
 }
 
-
-  /* Navigation Menu */
   .menu-title {
       font-family: 'Popins', serif;
       font-style: italic;
@@ -193,6 +191,7 @@
       }
   }
 
+  /* Navigation Menu */
   .nav-menu {
       display: none;
       gap: 20px;
@@ -211,8 +210,8 @@
       justify-content: center;
       gap: 5px;
       background: var(--glass);
-      padding: 15px;
-      width: 110px;
+      padding: 8px;
+      width: 94px;
       cursor: pointer;
       box-shadow: var(--shadow);
       border: 2px solid #ce54a1;
