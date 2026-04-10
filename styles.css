@@ -18,12 +18,12 @@
       font-family: 'Poppins', sans-serif;
       background: var(--gradient);
       color: var(--dark);
-      min-height: 100vh;
+      min-height: 100svh;
       overflow-x: hidden;
       background-image: url(Blacksweettshirt.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center 80%;
+      background-position: center center;
       position: relative;
   }
 
@@ -31,6 +31,7 @@
 @media (min-width: 780px) {
     body {
         background-attachment: fixed;
+        background-position: center 75%;
     }
 }
 
@@ -38,7 +39,15 @@
 @media (max-width: 768px) {
     body {
         background-attachment: scroll;
-        background-position: center 80%;
+        background-position: center center;
+    }
+  .hero {
+        min-height: 100svh;
+        padding-top: 80px;
+    }
+
+    #birthdayText {
+        transform: translateY(40px);
     }
 }
 
@@ -54,7 +63,7 @@
 
   /* Hero Section */
   .hero {
-      height: 100vh;
+      height: 100svh;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -63,11 +72,6 @@
       padding: 20px;
       position: relative;
       z-index: 10;
-  }
-
-/* Styling hbd,happy 24th yers, dan Esra agak turun ke bawah */
-  #birthdayText {
-    margin-top: 30px;
   }
 
   .hero h1 {
