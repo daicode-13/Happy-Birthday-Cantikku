@@ -78,7 +78,7 @@
 
 /* Styling ke 3 elemen di awal untuk turun ke bawah */
 .hero-content {
-      margin-top: 10px;
+      margin-top: 12px;
 }
 
   .hero h1 {
@@ -123,7 +123,7 @@
 
   .btn-main {
       padding: 3px 20px;
-      margin-top: 24px;
+      margin-top: 26px;
       background: var(--primary);
       color: white;
       border: none;
