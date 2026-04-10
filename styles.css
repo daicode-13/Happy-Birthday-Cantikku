@@ -78,7 +78,7 @@
 
 /* Styling ke 3 elemen di awal untuk turun ke bawah */
 .hero-content {
-      margin-top: 20px;
+      transform: translateY(10px);
 }
 
   .hero h1 {
