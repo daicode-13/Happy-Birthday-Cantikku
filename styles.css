@@ -35,10 +35,9 @@
 }
 
 /* MOBILE OPTIMIZATION */
-@media (max-width: 768px) {
+@media (max-width: 768px) {  
     body {
         background-attachment: scroll;
-        background-size:contain;
         background-position: center 80%;
     }
 }
