@@ -194,7 +194,7 @@
   }
 
   .nav-menu {
-      display: flex;
+      display: none;
       gap: 20px;
       flex-wrap: wrap;
       justify-content: center;
