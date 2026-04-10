@@ -31,7 +31,6 @@
 @media (min-width: 780px) {
     body {
         background-attachment: fixed;
-        background-position: center 75%;
     }
 }
 
@@ -39,15 +38,11 @@
 @media (max-width: 768px) {
     body {
         background-attachment: scroll;
-        background-position: center center;
-    }
-  .hero {
-        min-height: 100svh;
-        padding-top: 80px;
+        background-position: center 80%;
     }
 
     #birthdayText {
-        transform: translateY(40px);
+        transform: translateY(-40px);
     }
 }
 
