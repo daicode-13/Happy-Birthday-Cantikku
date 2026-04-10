@@ -24,7 +24,7 @@
       background-image: url(Blacksweettshirt.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center 15%;
+      background-position: center 100%;
       position: relative;
   }
 
@@ -41,7 +41,7 @@
         background-attachment: scroll;
         /* UPDATE: Menggunakan 0% atau nilai kecil untuk menaikkan foto ke atas 
            agar wajah terlihat jelas di HP */
-        background-position: center 5%; 
+        background-position: center 100%; 
         /* Tambahan: Memastikan lebar body tetap presisi layar HP */
         width: 100vw;
     }
