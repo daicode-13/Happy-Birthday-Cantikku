@@ -40,10 +40,6 @@
         background-attachment: scroll;
         background-position: center 80%;
     }
-
-    #birthdayText {
-        transform: translateY(-40px);
-    }
 }
 
   .floating-elements {
