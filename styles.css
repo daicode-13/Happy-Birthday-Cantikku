@@ -19,11 +19,12 @@
       background: var(--gradient);
       color: var(--dark);
       min-height: 100svh;
+      width: 100%;
       overflow-x: hidden;
       background-image: url(Blacksweettshirt.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center top;
+      background-position: center 15%;
       position: relative;
   }
 
@@ -38,8 +39,18 @@
 @media (max-width: 768px) {  
     body {
         background-attachment: scroll;
-        background-position: center 100%;
+        /* UPDATE: Menggunakan 0% atau nilai kecil untuk menaikkan foto ke atas 
+           agar wajah terlihat jelas di HP */
+        background-position: center 5%; 
+        /* Tambahan: Memastikan lebar body tetap presisi layar HP */
+        width: 100vw;
     }
+}
+
+/* Tambahan Penting: Mencegah elemen di dalam 'meluap' ke kanan */
+* {
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
   .floating-elements {
