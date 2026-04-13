@@ -32,7 +32,7 @@ function showMenu() {
 
     function createHearts() {
         const container = document.getElementById('bgItems');
-        const icons = ['❤️', '💖', '✨', '🎈'];
+        const icons = ['❤️', '💖'];
         setInterval(() => {
             const heart = document.createElement('div');
             heart.style.position = 'absolute';
