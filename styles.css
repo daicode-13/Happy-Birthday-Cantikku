@@ -209,7 +209,7 @@
       align-items: center;
       justify-content: center;
       gap: 5px;
-      background: none;
+      background: var(--glass);
       padding: 8px;
       width: 90px;
       cursor: pointer;
