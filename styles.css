@@ -202,6 +202,27 @@
       -webkit-animation: fadeIn 0.8s forwards;
   }
 
+.nav-container {
+    display: flex;
+    flex-direction: row;      /* Memaksa baris horizontal */
+    justify-content: center;  /* Kartu berada di tengah */
+    align-items: center;
+    gap: 10px;                /* Jarak antar kartu */
+    width: 100%;
+    flex-wrap: nowrap;        /* KUNCI: Mencegah kartu turun ke bawah di HP */
+}
+
+/* Responsivitas untuk layar sangat kecil */
+@media (max-width: 380px) {
+    .nav-container {
+        gap: 5px;             /* Memperkecil jarak antar kartu jika layar sangat sempit */
+    }
+    .nav-card {
+        width: 75px;          /* Menyesuaikan ukuran kartu di HP kecil */
+        font-size: 0.8rem;    /* Mengecilkan font sedikit jika perlu */
+    }
+}
+
   .nav-card {
       display: flex;
       flex-direction: column;
